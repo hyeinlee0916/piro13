@@ -1,0 +1,19 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+hr.one{
+    width:500px;
+    border-bottom:0px;
+    text-align:left;
+    margin-left:0px;
+}
+.quiz_title, .user_name, .answer{
+    color:white;    
+    font-family: 'Jeju Gothic', sans-serif;
+}
+
+p{
+    color:palevioletred;
+}
+
+
+
+

@@ -1,0 +1,40 @@
+{% extends 'layout.html' %} 
+
+{% block content %}
+
+<div class="container">
+<div class="title">
+    <h2>퀴즈 목록</h2>
+</div>
+
+<div class="details">
+    <h6>현재 플레이어의 등록된 퀴즈를 보여주는 페이지입니다. 졸립댜</h6></br>
+     <h6>사실 이 글은 큰 의미 없고 그냥 예뻐보이라고 넣었어요.</h6>
+</div>
+
+<div class="user">
+    현재 사용자: <!-- 현재 사용자: 아이디 가져오기 -->
+</div>
+<hr>
+<div class="quiz_list">
+<ur>
+    <li>제목:</li>
+    <li>출제자: </li>
+    <li>
+        <button class="favorite styled"
+        type="button">
+        퀴즈풀기
+         </button>
+    </li>
+    <li>
+        <button class="favorite styled"
+        type="button">
+        랭킹확인하기
+         </button>
+    </li>
+</ur>
+</div>
+
+</div>
+
+{% endblock %}

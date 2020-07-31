@@ -1,0 +1,21 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+.container {
+    text-align: center;
+    background-color :black;
+    color:white;
+    font-family: 'Jeju Gothic', sans-serif;
+}
+
+.favorite_styled {
+    
+        background-color: black;
+        color:palevioletred;
+        border: 2px solid palevioletred; 
+        margin-top:5px;
+        border-radius:10px; 
+        text-align: center;
+}
+
+.favorite_styled:hover {
+    transform: translateY(-3px);
+}

@@ -1,0 +1,34 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+nav{
+    background-color: black;
+}
+
+.nav_bar_left, .nav_bar_right {
+    display: inline-block;
+}
+.nav_bar_left {
+    float: left;
+}
+.nav_bar_right {
+    float: right;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding-left:20px;
+}
+.nav_bar_left {
+
+    color:palevioletred;
+    font-family: cursive, serif, Georgia, serif;
+}
+.nav_bar_right {
+    color:white;
+}
+.footer{
+    background-color: black;
+    color:whitesmoke ;
+    text-align: center;
+    font-family: 'Jeju Gothic', sans-serif;
+    font-size:12px;
+}
